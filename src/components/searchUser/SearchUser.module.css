@@ -1,0 +1,10 @@
+.user {
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 0.5rem;
+}
+
+.user a {
+  text-decoration: none;
+  color: white;
+}

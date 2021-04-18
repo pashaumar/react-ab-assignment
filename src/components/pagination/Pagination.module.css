@@ -1,0 +1,35 @@
+.paginationContainer {
+  width: 80%;
+  margin: 20px auto;
+}
+.paginationContainer button {
+  margin-left: 20px;
+  width: 50px;
+  cursor: pointer;
+  background: white;
+  color: rgba(0, 184, 148, 1);
+  outline: none;
+  border: 1px solid rgba(0, 184, 148, 1);
+  padding: 0.3rem 0;
+}
+@media screen and (max-width: 1024px) {
+  .paginationContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .paginationContainer {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .paginationContainer button {
+    margin: 20px 0 0 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .paginationContainer {
+    width: 95%;
+  }
+}

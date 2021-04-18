@@ -1,0 +1,16 @@
+.userDataContainer {
+  width: 100%;
+}
+.goBack {
+  padding: 10px;
+}
+.userData {
+  width: 300px;
+  margin: 20px 10px;
+}
+span {
+  font-weight: bold;
+}
+.companyDetails {
+  display: flex;
+}

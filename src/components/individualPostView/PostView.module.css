@@ -1,0 +1,28 @@
+.postViewContainer {
+  display: flex;
+  flex-direction: column;
+}
+.data {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.postDataWrapper,
+.commentDataWrapper {
+  display: flex;
+}
+.postDataWrapper p,
+.commentDataWrapper p {
+  flex: 1;
+  text-align: center;
+}
+.postDataWrapper:first-child p,
+.commentDataWrapper:first-child p {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .data {
+    flex-direction: column;
+  }
+}
